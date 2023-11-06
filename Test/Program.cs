@@ -9,7 +9,7 @@ AirSearchClient client = new AirSearchClient();
 // Always close the client.
 SearchRequest request = new SearchRequest
 {
-    Destination = "05.11.2023",
+    Destination = "ADB",
     DepartureDate = new DateTime(2023, 11, 5, 18, 20, 0),
     Origin = "SAW"
 };
